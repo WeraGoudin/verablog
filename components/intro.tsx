@@ -7,7 +7,10 @@ const Intro = () => {
         Vera's Blog.
       </h1>
       <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        Education. Family. Health.
+      I research random questions that pop up in my head and share the results here. 
+      I enjoy writing and learning something new through my investigations. 
+      I find satisfaction in getting the best possible answer for myself and who knows… 
+      Maybe you have been wondering about the same things?
       </h4>
     </section>
   )
