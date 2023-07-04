@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <style>
     body {
-      background-color: #D8E2DC;
+      background-image: #D8E2DC;
     }
 
     .navbar {
@@ -19,25 +19,48 @@
     .intro-image {
       border-radius: 50%;
       max-width: 300px;
-      height: auto;
+      height: 300px;
     }
   </style>
 </head>
 
 <body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">Vera Goudin</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#intro">Intro</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#articles">Articles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
   <!-- Articles Section -->
   <section id="articles" class="container mt-5">
+    <h2>The Start</h2>
     <div class="row">
-      <div>
-          <img src="/Webpage1.png" alt="Article 1" class="img-fluid">
+      <div class="col-md-12 mb-4">
+        <a href="/article1.html">
+          <img src="https://images.unsplash.com/photo-1597945161640-9366e6d4253b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1548&q=80" alt="Article 1" class="img-fluid">
         </a>
-        <h2>The Start</h2>
-        <p>
-            This is the start. I have just made a first print screen of this page and this will be the starting point of this journey. 
-          With each article it should evolve and with each article I should learn something new.
-            
-        </p>
+        <h3>The Start</h3>
+        <p>This is the start. I have just made a first print screen of this page and this will be the starting point of this journey. 
+          With each article it should evolve and with each article I should learn something new.</p>
+          <a href="/article1.html">Read more</a>
       </div>
+    </div>
   </section>
 
   <!-- Footer -->
